@@ -1,0 +1,48 @@
+body {
+  position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+}
+#todo {
+  position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;
+}
+#fondoweb {
+  position: absolute; top: -8px; left: -8px; bottom: 0px; right: 0px;
+  width: 1550px; height: 1300px; 
+  z-index: 0;
+}
+#numerolote {
+  position: absolute; top: 30px; left: 290px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 963px;
+  z-index: 1;
+}
+#mapa {
+  position: absolute; top: 150px; left: 40px;
+  width: 1000; height: 1000px;
+  z-index: 2;
+}
+
+.infowin {
+  background: #bb2caa4b;
+  left: 0; bottom: 0; right: 0; top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+.infowin .content {
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgb(183, 0, 186);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+
